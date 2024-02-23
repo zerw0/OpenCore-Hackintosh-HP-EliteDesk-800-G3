@@ -35,18 +35,15 @@ Figure 2. Back face of model
 
 | NAME |  DESCRIPTION |
 |------|:-----------:|
-| Model name | HP EliteDesk 800 G3 Desktop Mini Business PC (65W) |
-| OS | macOS Monterey 12.4 |
-| CPU | 3,5 GHz Quad-Core - Intel Core i5-7600 |
-| Memory | 16GB (8GB x 2) - Hynix/Hyundai DDR4 2400 MHz |
-| Graphics | Intel HD Graphics 630 |
-| Monitor | LG 29WN600 |
-| Wi-Fi | Broadcom BCM94360CS2 |
-| Bluetooth | Broadcom BCM94360CS2 |
-| Storage | 250 GB - CRUCIAL NVME CT250P2SSD8 |
-| Storage | 1 TB - WDC SATA III WD10JPVX-75JC3T0 |
-| BIOS | 447.60.3.0.0 |
-| OpenCore | 0.8.1 |
+| Model name | HP EliteDesk 800 G3 Small Form Factor Business PC |
+| OS | macOS Sonoma 14.3.1 |
+| CPU | 3,3 GHz Quad-Core - Intel Core i5-6600 |
+| Memory | 16GB (16GB x 1) |
+| Graphics | Intel HD Graphics 530 |
+| Monitor | Lenovo ThinkVision Pro2820
+| Storage | 120 GB - Kingston SA400S3712OG |
+| Storage | 512 GB - WDC WD5000AAKX-00ERMA0 |
+| OpenCore | 0.9.8 |
 
 </div>
 
@@ -58,13 +55,10 @@ Figure 2. Back face of model
 - All USB ports (including USB-C port)
 - All DisplayPort
 - Both audio ports on the front face
-- Wi-Fi
-- Bluetooth
 - Graphics acceleration
 - NVME SSD
-- Boot chime
-- AirDrop
-- Hand-off
+- Ethernet port
+
 
 ### Not working ❌
 
@@ -74,7 +68,8 @@ Figure 2. Back face of model
 ### Unchecked / tested ❓
 
 - VGA port
-- Ethernet port
+- NVME SSD
+- Boot chime
 
 ##  BIOS SETUP 💾
 
